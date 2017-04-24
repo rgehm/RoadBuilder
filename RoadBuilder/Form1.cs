@@ -13,6 +13,7 @@ namespace RoadBuilder
     public partial class Form1 : Form
     {
         Graphics g;
+        int hi = 0;
         public Form1()
         {
             InitializeComponent();
