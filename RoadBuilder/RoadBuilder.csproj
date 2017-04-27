@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameObject.cs" />
     <Compile Include="Gamestate.cs" />
+    <Compile Include="MoveableGameObject.cs" />
+    <Compile Include="StaticGameObject.cs" />
+    <Compile Include="Texture2D.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="KeyPressType.cs" />
     <Compile Include="Level.cs" />
@@ -83,6 +87,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mustercode und Richtlinien.txt" />
+    <Content Include="Projekttagebuch.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

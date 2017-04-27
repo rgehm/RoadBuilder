@@ -29,6 +29,10 @@ namespace Roadbuilder
         {
             //Beispiel
             //e.Graphics.FillRectangle(new SolidBrush(Color.Green), new Rectangle(new Point(x, 50), new Size(50, 50)));
+
+            Texture2D test = new Texture2D("data\\res\\textures\\test.png");
+
+             e.Graphics.FillRectangle(test.TextureBrush, new Rectangle(new Point(50, 50), new Size(50, 50)));
         }
 
         public void OnInput(string PressType, KeyEventArgs e)

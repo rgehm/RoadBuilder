@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Roadbuilder
 {
-    class Player : MoveableGameObject
+    class MoveableGameObject : GameObject
     {
 
     }
