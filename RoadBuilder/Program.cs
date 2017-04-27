@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RoadBuilder
+namespace Roadbuilder
 {
     static class Program
     {
@@ -16,7 +15,12 @@ namespace RoadBuilder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Roadbuilder());
+
+            Roadbuilder MainGameWindow = new Roadbuilder();
+
+            MainGameWindow.Show();
+            MainGameWindow.GameLoop();
         }
     }
 }
